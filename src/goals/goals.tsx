@@ -80,7 +80,10 @@ function Goals() {
                 <span>
                   {"    "}
                   Goal Amount:{" "}
-                  <span style={{ fontWeight: "bold" }}>{goal.money}</span>
+                  <span style={{ fontWeight: "bold" }}>
+                    {"$"}
+                    {goal.money}
+                  </span>
                 </span>
               </p>
               <p>
